@@ -10,14 +10,44 @@
   color: white;
   width: 100%; }
 
-.home-page {
-  /* height: 100em; */ }
+.home-background {
+  height: 100vh;
+  background: #F2994A;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #eec682, #F2994A);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #eec682, #F2994A);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .home-background-color {
-  height: 100vh;
-  background: #E55D87;
+  height: 45vh;
+  border-bottom: 0.1em solid #F2994A;
+  background: #5dc0dc;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #5FC3E4, #E55D87);
+  background: -webkit-linear-gradient(to top, #cbda80, #5dc0dc);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #5FC3E4, #E55D87);
+  background: linear-gradient(to top, #cbda80, #5dc0dc);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.home-splash-block {
+  text-align: center; }
+
+.home-splash-img {
+  margin-top: 3.55em;
+  width: 75em; }
+
+.home-splash-text {
+  text-align: center;
+  margin-top: 0.75em;
+  color: #3c8846;
+  font-size: 2.15em; }
+
+.login-btn-block {
+  margin-top: 1.55em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.login-btn {
+  width: 16em;
+  font-size: 1.45em !important; }

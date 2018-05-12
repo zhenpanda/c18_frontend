@@ -1,0 +1,184 @@
+@import "./_responsive.scss";
+
+.block-area-empty {
+    height: 100vh;
+    width: 24em;
+    top: 0%;
+    left: 0%;
+    z-index: 5;
+    position: fixed;
+    // border-right: 0.1em solid #ebffa3;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cdeb8e+0,a5c956+100;Green+3D+%232 */
+    background: #cdeb8e; /* Old browsers */
+    background: -moz-linear-gradient(top, #cdeb8e 0%, #a5c956 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #cdeb8e 0%,#a5c956 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #cdeb8e 0%,#a5c956 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 ); /* IE6-9 */
+}
+.block-area {
+    height: 100vh;
+    width: 24em;
+    top: 0%;
+    left: 0%;
+    // background-color: rgb(45, 110, 145);
+    background-color: rgb(28, 120, 148);
+    z-index: 5;
+    position: fixed;
+    border-right: 0.25em solid rgb(255, 255, 255);
+}
+.block-section {
+    margin-top: 1.5em;
+}
+.block-explorer-header {
+    border: 0.1em solid white;
+    text-align: center;
+    color: white;
+    padding: 1em;
+    font-size: 1.1em;
+}
+
+.block-block {
+    // padding: 0.2em;
+    // border: 0.025em solid rgb(224, 204, 137);
+    border: 0.1em solid rgb(199, 237, 255);
+    margin-top: 1em;
+    cursor: pointer;
+}
+.block-title-text {
+    padding-top: 0.5em;
+    margin-bottom: -1em;
+    color: rgb(247, 196, 247);
+    text-align: center;
+    font-size: 1.24em;
+}
+.block-time-text {
+    margin-top: 1.25em;
+    margin-bottom: -1.5em;
+    font-size: 1em;
+    color: #b0d38f;
+    text-align: center;
+}
+.block-img {
+    margin-top: -0.9em;
+    width: 99%;
+    // margin-bottom: -0.25em;
+}
+.block-hash-tag {
+    margin-top: -2.5em;
+    // text-align: center;
+    margin-left: 1.2em;
+    color: rgb(235, 202, 112);
+    font-size: 1.2em;
+}
+.block-hash-text {
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    padding: 0.2em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 142, 85);
+    border: 0.1em solid rgb(255, 255, 255);
+    font-size: 1.05em;
+    margin-bottom: 1em;
+}
+
+.block-block-two {
+    border: 0.025em solid rgb(224, 204, 137);
+    margin-top: 1em;
+    cursor: pointer;
+}
+.block-title-text-two {
+    padding-top: 0.5em;
+    margin-bottom: -1em;
+    color: rgb(235, 202, 112);
+    text-align: center;
+    // text-shadow: 0.1em 0.1em rgb(235, 202, 112);
+}
+.block-img-two {
+    margin-top: -0.5em;
+    width: 99%;
+    // margin-bottom: -0.75em;
+}
+
+.block-explorer-header-hospital {
+    border: 0.1em solid white;
+    text-align: center;
+    color: white;
+    padding: 1em;
+    margin-top: 1.5em;
+    margin-bottom: -1.5em;
+}
+.test-btn {
+    float: right;
+}
+
+//   block anim
+/*https://github.com/szchenghuang/react-transitions/blob/master/src/animations.css*/
+
+    @keyframes rotate360 {
+        to { transform: rotate(360deg); }
+    }
+    /*.cycle-arrow {
+        animation: 48s rotate360 infinite linear;
+        opacity: .26;
+    }*/
+    @keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+    }
+    @-o-keyframes flickerAnimation{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-moz-keyframes flickerAnimation{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-webkit-keyframes flickerAnimation{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    .dot-group {
+        height: 2.5em;
+    }
+    .dot-img {
+        width: 1.5em !important;
+    }
+    .dot-row {
+        height: 0.95em !important;
+        margin: auto;
+        text-align: center;
+        // display: block;
+        // width: 20em;
+    }
+    .dots-anim-one {
+        -webkit-animation: flickerAnimation 6.5s infinite;
+        -moz-animation: flickerAnimation 6.5s infinite;
+        -o-animation: flickerAnimation 6.5s infinite;
+        animation: flickerAnimation 6.5s infinite;
+    }
+    .dots-anim-two {
+        -webkit-animation: flickerAnimation 8.25s infinite;
+        -moz-animation: flickerAnimation 8.25s infinite;
+        -o-animation: flickerAnimation 8.25s infinite;
+        animation: flickerAnimation 8.25s infinite;
+    }
+    .dots-anim-thr {
+        -webkit-animation: flickerAnimation 12.5s infinite;
+        -moz-animation: flickerAnimation 12.5s infinite;
+        -o-animation: flickerAnimation 12.5s infinite;
+        animation: flickerAnimation 12.5s infinite;
+    }
+
+    .hovicon.effect-9.sub-b:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+    color: #fff;
+    }
+    .hovicon.effect-9.sub-b:hover i {
+        color: #fff;
+    }

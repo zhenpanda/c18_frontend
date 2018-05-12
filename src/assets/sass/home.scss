@@ -1,11 +1,5 @@
-.google-map-container {
-    width: 100vw;
-    height: 100vh;
-}
-.clean-row {
-    margin: 0em;
-    padding: 0em;
-}
+@import "./_responsive.scss";
+
 
 .test {
     color: white;
@@ -15,13 +9,14 @@
 .home-background {
     height: 100vh;
     // background: #eec682;
-    background: #F2994A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #eec682, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #eec682, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    // #eec682
+    background: #f27a11;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #f7cf89, #f27a11);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #f7cf89, #f27a11); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
 .home-background-color {
-    height: 45vh;
+    height: 42.5vh;
     border-bottom: 0.1em solid #F2994A;
     // #b8d38c;
     background: #5dc0dc;  /* fallback for old browsers */
@@ -39,6 +34,7 @@
     text-align: center;
     margin-top: 0.75em;
     color: rgb(60, 136, 70);
+    text-shadow: 1px 1px #fad073;
     font-size: 2.15em;
 }
 .login-btn-block {

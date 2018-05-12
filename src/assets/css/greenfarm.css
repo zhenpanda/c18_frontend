@@ -1,0 +1,143 @@
+/* Mixed-ins */
+.clean-row {
+  padding: 0em !important;
+  margin: 0em !important; }
+
+.google-map-container {
+  width: 100vw;
+  height: 100vh; }
+
+.greenfarm-bg {
+  height: 100vh;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cdeb8e+0,a5c956+100;Green+3D+%232 */
+  background: #cdeb8e;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #cdeb8e 0%, #a5c956 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #cdeb8e 0%, #a5c956 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #cdeb8e 0%, #a5c956 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 );
+  /* IE6-9 */ }
+
+.greenfarm-section {
+  background-color: mintcream;
+  margin-top: 2em !important; }
+
+.greenfarm-header-left-tile {
+  height: 2em;
+  background-color: #df4e4e; }
+
+.greenfarm-header-img {
+  margin-top: 0.5em;
+  margin-left: 0.25em;
+  width: 98.5%; }
+
+.greenfarm-header-right-tile {
+  height: 2em;
+  background-color: #c7c7c6; }
+
+.greenfarm-title-icon {
+  margin-left: 0.1em;
+  margin-right: 0.25em;
+  color: #2f8cc2; }
+
+.greenfarm-title-text {
+  font-size: 3.5em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  color: #22944c; }
+
+.greenfarm-mid-text {
+  font-size: 1.25em;
+  margin-top: 1.25em;
+  margin-left: 1.5em;
+  color: #8e6648; }
+
+.greenfarm-bot-text {
+  font-size: 2.05em;
+  color: #df4e4e;
+  margin-left: 1em; }
+
+.greenfarm-body-left-block {
+  height: 42em;
+  border: 0.01em solid #c6c6c6;
+  background-color: pink;
+  margin-top: 1em;
+  margin-left: 0.5em;
+  margin-bottom: 1em; }
+
+.confirm-section {
+  margin-top: 1.55em; }
+
+input, textarea, select, button {
+  color: grey; }
+
+@media only screen and (min-width: 63.3em) and (max-width: 80em) {
+  html .greenfarm-title-text {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-left: 0.5em; }
+  html .greenfarm-section {
+    margin-top: 0.2em !important; }
+  html .greenfarm-mid-text {
+    margin-top: 0.25em; }
+  html .greenfarm-body-left-block {
+    margin-top: 0em; }
+  html .manufactuer-body-table {
+    margin-top: 1em; }
+  html .greenfarm-body-left-block {
+    height: 32em; }
+  html .confirm-section {
+    margin-top: 0.75em; }
+  html .manufactuer-body-table-long {
+    height: 30em;
+    margin-bottom: 0.5em; }
+  html .greenfarm-bg .active {
+    margin: 0em !important; }
+  html .greenfarm-bg .collapsible {
+    margin: 0em !important; }
+  html .greenfarm-bg .accordion-lable-text {
+    margin: 0em; }
+  html .greenfarm-bg .collapsible-body {
+    padding: 0.5em !important; }
+  html .greenfarm-bg .sku-table-btn {
+    margin-top: 0.25em;
+    margin-bottom: -0.5em;
+    height: 3.25em;
+    text-align: center;
+    width: 11.5em; }
+  html .greenfarm-bg .leaflet-sticker {
+    top: 42.15% !important;
+    left: 1%; } }
+
+@media only screen and (min-width: 80.1em) and (max-width: 91em) {
+  html .greenfarm-section {
+    margin-top: 0.5em !important; }
+  html .greenfarm-mid-text {
+    margin-top: 0.25em; }
+  html .greenfarm-body-left-block {
+    margin-top: 0em; }
+  html .manufactuer-body-table {
+    margin-top: 1em; }
+  html .greenfarm-body-left-block {
+    height: 38em; }
+  html .confirm-section {
+    margin-top: 0.75em; }
+  html .manufactuer-body-table-long {
+    height: 38em;
+    margin-bottom: 0.5em; }
+  html .greenfarm-bg .active {
+    margin: 0em !important; }
+  html .greenfarm-bg .sku-table-btn {
+    margin-top: 0.25em;
+    margin-bottom: -0.5em;
+    height: 3.25em;
+    text-align: center;
+    width: 11.5em; }
+  html .greenfarm-bg .accordion-lable-text {
+    margin: 0em; }
+  html .greenfarm-bg .leaflet-sticker {
+    top: 45.5% !important;
+    left: 5.25%; } }

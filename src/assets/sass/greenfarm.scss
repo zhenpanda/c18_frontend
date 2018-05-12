@@ -1,0 +1,195 @@
+@import "./_responsive.scss";
+
+.greenfarm-bg {
+    height: 100vh;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cdeb8e+0,a5c956+100;Green+3D+%232 */
+background: #cdeb8e; /* Old browsers */
+background: -moz-linear-gradient(top, #cdeb8e 0%, #a5c956 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #cdeb8e 0%,#a5c956 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #cdeb8e 0%,#a5c956 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 ); /* IE6-9 */
+}
+.greenfarm-section {
+    background-color: mintcream;
+    margin-top: 2em !important;
+}
+.greenfarm-header-left-tile {
+    height: 2em;
+    background-color: #df4e4e;
+}
+.greenfarm-header-img {
+    margin-top: 0.5em;
+    margin-left: 0.25em;
+    width: 98.5%;
+}
+.greenfarm-header-right-tile {
+    height: 2em;
+    background-color: rgb(199, 199, 198);
+}
+.greenfarm-header-left-block {
+}
+
+.greenfarm-title-icon {
+    margin-left: 0.1em;
+    margin-right: 0.25em;
+    color: rgb(47, 140, 194);
+}
+.greenfarm-title-text {
+    font-size: 3.5em;
+    // margin-top: 1em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    color: rgb(34, 148, 76);
+}
+.greenfarm-mid-text {
+    font-size: 1.25em;
+    margin-top: 1.25em;
+    margin-left: 1.5em;
+    color: rgb(142, 102, 72);
+}
+.greenfarm-bot-text {
+    font-size: 2.05em;
+    color: #df4e4e;
+    margin-left: 1em;
+}
+
+.greenfarm-body-left-block {
+    height: 42em;
+    border: 0.01em solid rgb(198, 198, 198);
+    // background-color: rgb(85, 195, 215);
+    background-color: pink;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+// .manufactuer-body-table {
+//     border: 0.01em solid rgb(198, 198, 198);
+//     // tl
+// }
+
+.confirm-section {
+    margin-top: 1.55em;
+}
+
+// .greenfarm-bg {
+//     .leaflet-sticker {
+//         top: 42.5% !important;
+//         left: 8.25%;
+//         z-index: 250;
+//         width: 32em;
+//     }
+// }
+
+input, textarea, select, button {
+    color: grey;
+}
+
+html { 
+
+    @include responsive (phone-small) {
+    }; 
+    @include responsive (phone) {
+    }; 
+    @include responsive (laptop-small) {
+        .greenfarm-title-text {
+            font-size: 1.5em;
+            margin-top: 0.5em;
+            margin-left: 0.5em;
+        }
+        .greenfarm-section {
+            margin-top: 0.2em !important;
+        }
+        .greenfarm-mid-text {
+            margin-top: 0.25em;
+        }
+        .greenfarm-body-left-block {
+            margin-top: 0em;
+        }
+        .manufactuer-body-table {
+            margin-top: 1em;
+        }
+        .greenfarm-body-left-block {
+            height: 32em;
+        }
+        .confirm-section {
+            margin-top: 0.75em;
+        }
+        .manufactuer-body-table-long {
+            height: 30em;
+            margin-bottom: 0.5em;
+        }
+        .greenfarm-bg {
+            .active {
+                margin: 0em !important;
+            }
+            .collapsible {
+                margin: 0em !important;
+            }
+            .accordion-lable-text {
+                margin: 0em;
+            }
+            .collapsible-body {
+                padding: 0.5em !important;
+            }
+            .sku-table-btn {
+                margin-top: 0.25em;
+                margin-bottom: -0.5em;
+                height: 3.25em;
+                text-align: center;
+                width: 11.5em;
+            }
+            .leaflet-sticker {
+                top: 42.15% !important;
+                left: 1%;
+            }
+        }
+    }; 
+    @include responsive (laptop) {
+        .greenfarm-section {
+            margin-top: 0.5em !important;
+        }
+        .greenfarm-mid-text {
+            margin-top: 0.25em;
+        }
+        .greenfarm-body-left-block {
+            margin-top: 0em;
+        }
+        .manufactuer-body-table {
+            margin-top: 1em;
+        }
+        .greenfarm-body-left-block {
+            height: 38em;
+        }
+        .confirm-section {
+            margin-top: 0.75em;
+        }
+        .manufactuer-body-table-long {
+            height: 38em;
+            margin-bottom: 0.5em;
+        }
+        .greenfarm-bg {
+            .active {
+                margin: 0em !important;
+            }
+            .sku-table-btn {
+                margin-top: 0.25em;
+                margin-bottom: -0.5em;
+                height: 3.25em;
+                text-align: center;
+                width: 11.5em;
+            }
+            .accordion-lable-text {
+                margin: 0em;
+            }
+            .leaflet-sticker {
+                top: 45.5% !important;
+                left: 5.25%;
+            }
+        }
+    }; 
+    @include responsive (desktop) {
+    }; 
+    @include responsive (desktop-large) {
+    }; 
+
+}

@@ -1,0 +1,50 @@
+/* Mixed-ins */
+@mixin responsive ($breakpoint) {
+    
+    @if $breakpoint == phone-small {
+        // 320px
+        @media only screen and (max-width: 27em) {
+            @content;
+        }
+    }
+    @else if $breakpoint == phone {
+        // 414px
+        @media only screen and (min-width: 27.6em) and (max-width: 55.6em)  {
+            @content;
+        }
+    }
+    @else if $breakpoint == laptop-small {
+        // 960px <-> 1200px
+        @media only screen and (min-width: 63.3em) and (max-width: 80em)  {
+            @content;
+        }
+    }
+    @else if $breakpoint == laptop {
+        // 1201px <-> 1366px
+        @media only screen and (min-width: 80.1em) and (max-width: 91em) {
+            @content;
+        }
+    }
+    @else if $breakpoint == desktop {
+        // 1367px <-> 1500px
+        @media only screen and (min-width: 91.1em) and (max-width: 100em) {
+            @content;
+        }
+    }
+    @else if $breakpoint == desktop-large {
+        // 1501px <-> 1920px 
+        @media only screen  and (min-width: 100.1em) and (max-width: 128em) {
+            @content;
+        }
+    }
+
+}
+
+.clean-row {
+    padding: 0em !important;
+    margin: 0em !important;
+}
+.google-map-container {
+    width: 100vw;
+    height: 100vh;
+}

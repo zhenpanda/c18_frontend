@@ -12,12 +12,14 @@ class Home extends Component {
     return (
             <div className="home-background">
             <div className="home-background-color">
-                <div className="home-splash-block">
+                <div className="home-splash-block moveFromTopFade delay300">
                     <img className="home-splash-img z-depth-3" src={splashHero} alt="" />
                 </div>
-                <div className="home-splash-text">Tracking food shipments on the BlockChain</div>
-                <div className="login-btn-block">
-                    <div className="btn login-btn btn-large cyan darken-1">Start Tracking</div>
+                <div className="home-splash-text moveFromTopFade">Tracking food shipments on the BlockChain</div>
+                <div className="login-btn-block moveFromBottomFade delay200">
+                    <Link to="/greenfarm">
+                        <div className="btn login-btn btn-large cyan darken-1">Start Tracking</div>
+                    </Link>
                 </div>
             </div>
             </div>

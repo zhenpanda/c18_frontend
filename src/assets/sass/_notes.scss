@@ -1,0 +1,56 @@
+/*
+
+    Phone-Small:
+
+        android_one: 320px * 569px
+        iphone6:     375px * 667px 
+
+    Phone:
+
+        8plus:       414px * 736px
+
+    Ipad:
+
+        ipad:        768px * 1024px
+        ipadPro:     1024px * 1366px
+        phone_Lrg:   1080px * 1920px
+
+    Laptop:
+
+        laptop-small:  1200px * 650px (sml)
+        laptop:  1366px * 768px 
+
+    Desktop:
+
+        desktop:     1600px * 900px
+        desktop-large: 1920px * 1080px
+
+        Media query ranges
+
+*/
+
+
+/* selector example */
+
+// html { 
+// 
+//     @include responsive (phone-small) {
+//     }; 
+//     @include responsive (phone) {
+//     }; 
+//     @include responsive (laptop-small) {
+//     }; 
+//     @include responsive (laptop) {
+//     }; 
+//     @include responsive (desktop) {
+//     }; 
+//     @include responsive (desktop-large) {
+//     }; 
+// 
+// }
+
+
+// https://github.com/szchenghuang/react-transitions/blob/master/src/animations.css
+
+
+// https://fontawesome.bootstrapcheatsheets.com/# 

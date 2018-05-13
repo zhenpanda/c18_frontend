@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import moment from 'moment';
 
 import BlockChain from '../components/BlockChain';
+import PhoneModal from '../components/PhoneModal';
 
 import greenfarmImg from '../assets/images/greenfarm_logo.png';
 import csvImg from '../assets/images/csv.png';
@@ -25,14 +26,21 @@ class GreenFarm extends Component {
             return(
                 <BlockChain />
             )
-        }else if(this.state.stage === "greenfarm"){
+        }else if(this.state.stage === "greenfarm") {
             return(
                 <BlockChain 
                     stage="greenfarm" 
                     time={currentTime}
                 />
             )
-        }
+        }else if(this.state.stage === "phone") {
+            return(
+                <BlockChain 
+                    stage="phone" 
+                    time={currentTime}
+                />
+            )
+        };
     };
     changeStage() { this.setState({stage: "greenfarm"}) };
 
@@ -75,6 +83,9 @@ class GreenFarm extends Component {
     }
     displayFarmLink() {
         if(this.state.stage) {
+            setTimeout(() => {
+                $("#modalClick").click();
+            }, 2500);
             return(
                 <Link to="/farm">
                     <div className="btn shipment-btn moveFromBottomFade">Farm Shipment Tracking</div>
@@ -84,13 +95,34 @@ class GreenFarm extends Component {
     }
     changeCsv() { this.setState({csv: true}) };
 
+    displayButton() {
+        if(this.state.stage === "greenfarm") {
+            return(
+                <div className="waves-effect waves-light btn modal-trigger" href="#modal1" id="modalClick">Modal</div>
+            )
+        }
+    }
+    displayPhone() {
+        if(this.state.stage === "greenfarm") {
+            return(
+                <PhoneModal pushSmsBlockChain={() => this.changeBlockChain()} />
+            )
+        }
+    }
+    changeBlockChain() { 
+        this.setState({stage: "phone"});
+    }
+
     render() {
 
         return(
             <div className="greenfarm-bg">
-                {/* greenfarm main section */}
+                                                            
+                {/* phone model */}
+                {this.displayPhone()}
+                
 
-                {/* greenfarm area */}
+                {/* greenfarm main section */}
                 <div className="row">
                     <div className="col s3 m3" />
                     <div className="col s9 m9">
@@ -123,6 +155,8 @@ class GreenFarm extends Component {
                                             <div className="greenfarm-body-left-block">
                                                 {this.displayFarmInfo()}
                                             </div>
+                                           {this.displayButton()}
+
                                         </div>
 
                                         <div className="col s9 m9 clean-row">
@@ -169,6 +203,7 @@ class GreenFarm extends Component {
 
                 {/* blockchain explorer */}
                 {this.displayBlock()}
+
 
             </div>
         )

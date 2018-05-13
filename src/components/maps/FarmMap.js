@@ -33,7 +33,7 @@ const StyledMapWithAnInfoBox = compose(
   <GoogleMap
     defaultZoom={10}
     defaultCenter={props.center}
-    defaultOptions={{ styles: baseFancyMapStyles }}
+    // defaultOptions={{ styles: baseFancyMapStyles }}
   >
   <Marker
     position={{ lat: 41.034899, lng: -72.504491 }}

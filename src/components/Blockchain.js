@@ -87,6 +87,30 @@ class BlockChain extends Component {
                     </div>
                 </div> 
             )
+        }else if( this.props.stage === "phone" ) {
+            return(
+                <div className="block-area moveFromLeftFade">
+                    <div className="row">
+                        <div className="col s2 m2" />
+                        <div className="col s8 m8">
+    
+                            <div className="block-section">
+                                <div className="block-explorer-header">Blockchain Explorer</div>
+
+                                {this.displayChainConnection("two")}
+                                <Blocks block="two" truckTime={this.props.truckTime} />
+                           
+                            </div>
+
+                            {/* connecting dots */}
+                            {this.displayChainConnection("one")}
+                            <Blocks block="one" time={this.props.time} />
+    
+                        </div>
+                        <div className="col s2 m2" />
+                    </div>
+                </div>
+            )
         }else if( this.props.stage === "truck" ) {
             return(
                 <div className="block-area moveFromLeftFade">

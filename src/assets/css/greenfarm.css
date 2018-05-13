@@ -115,6 +115,27 @@ input, textarea, select, button {
   margin-top: 1.75em;
   margin-left: 0.5em; }
 
+.modal-trigger {
+  display: none; }
+
+.phone-modal-section {
+  background: #cdeb8e; }
+
+.phone-modal-header-text {
+  color: green;
+  font-size: 2em;
+  padding: 1em; }
+
+.phone-case-block {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer; }
+
+.phone-case-img {
+  text-align: center;
+  width: 70%; }
+
 @media only screen and (min-width: 63.3em) and (max-width: 80em) {
   html .greenfarm-title-text {
     font-size: 1.5em;

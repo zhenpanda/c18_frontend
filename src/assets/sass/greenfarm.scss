@@ -126,6 +126,29 @@ input, textarea, select, button {
     margin-left: 0.5em;
 }
 
+.modal-trigger {
+    display: none;
+}
+.phone-modal-section {
+    background: #cdeb8e;
+}
+.phone-modal-header-text {
+    color: green;
+    font-size: 2em;
+    padding: 1em;
+}
+
+.phone-case-block {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.phone-case-img {
+    text-align: center;
+    width: 70%;
+}
+
 html { 
 
     @include responsive (phone-small) {

@@ -8,7 +8,8 @@ import BlockThree from '../assets/images/blockHospital.png';
 class Blocks extends Component {
 
     displayHash(time) {
-        let hashStr = hash(time);
+        let hashStr = "112345"
+        if(time) hashStr = hash(time);
         let trimmedHash = "0x" + hashStr.substring(0, 16) + "...";
         return( <span>{trimmedHash}</span> );
     }

@@ -1,0 +1,35 @@
+/* Mixed-ins */
+.clean-row {
+  padding: 0em !important;
+  margin: 0em !important; }
+
+.google-map-container {
+  width: 100vw;
+  height: 100vh; }
+
+.supermarket-bg {
+  height: 100vh;
+  background: #43C6AC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F8FFAE, #43C6AC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.supermarket-body-left-block {
+  height: 42em;
+  border: 0.01em solid #c6c6c6;
+  background-color: #f5f5be;
+  margin-top: 1em;
+  margin-left: 0.5em;
+  margin-bottom: 1em; }
+
+.supermarket-header-left-tile {
+  height: 2em;
+  background-color: #e3934d; }
+
+.supermarket-title-text {
+  font-size: 3.5em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  color: #21b890; }

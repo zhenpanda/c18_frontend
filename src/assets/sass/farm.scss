@@ -15,7 +15,7 @@
 .farm-header-icon {
     color: rgb(98, 179, 95);
     margin-right: 0.55em;
-    margin-left: 1.75em;
+    margin-left: 2.5em;
 }
 .farm-header-main-text {
     color: rgb(244, 209, 122);
@@ -42,7 +42,7 @@
 }
 .farm-body-table {
     margin-top: 2em;
-    height: 24em;
+    height: 38em;
     background-color: rgb(255, 255, 255);
     display: none;
     thead {
@@ -127,6 +127,11 @@
 .finalize-farm {
     margin-top: -6em;
     margin-right: 0.1em;
+}
+
+.warehouse-table-btn {
+    padding-top: 0.8em;
+    text-align: center;
 }
 
 // responsive 

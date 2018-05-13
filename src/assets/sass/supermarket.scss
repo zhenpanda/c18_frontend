@@ -1,0 +1,28 @@
+@import "./_responsive.scss";
+
+.supermarket-bg {
+    height: 100vh;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.supermarket-body-left-block {
+    height: 42em;
+    border: 0.01em solid rgb(198, 198, 198);
+    // background-color: rgb(85, 195, 215);
+    background-color: rgb(245, 245, 190);
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+.supermarket-header-left-tile {
+    height: 2em;
+    background-color: #e3934d;
+}
+.supermarket-title-text {
+    font-size: 3.5em;
+    // margin-top: 1em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    color: rgb(33, 184, 144);
+}

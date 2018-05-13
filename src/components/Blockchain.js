@@ -98,7 +98,7 @@ class BlockChain extends Component {
                                 <div className="block-explorer-header">Blockchain Explorer</div>
 
                                 {this.displayChainConnection("two")}
-                                <Blocks block="two" truckTime={this.props.truckTime} />
+                                <Blocks block="two" truckTime={this.props.phoneTime} />
                            
                             </div>
 
@@ -111,7 +111,6 @@ class BlockChain extends Component {
                     </div>
                 </div>
             )
-        }else if( this.props.stage === "truck" ) {
             return(
                 <div className="block-area moveFromLeftFade">
                     <div className="row">
@@ -135,7 +134,7 @@ class BlockChain extends Component {
                     </div>
                 </div>
             )
-        }else if( this.props.stage === "supermarket" ) {
+        }else if( this.props.stage === "warehouse" ) {
             return(
                 <div className="block-area moveFromLeftFade">
                     <div className="row">
@@ -146,15 +145,44 @@ class BlockChain extends Component {
 
                             <div className="block-section">
                                 {this.displayChainConnection("one")}
-                                <Blocks block="three" hospitalTime={this.props.hospitalTime} />
+                                <Blocks block="three" hospitalTime={this.props.time} />
                             </div>
 
                             {this.displayChainConnection("two")}
-                            <Blocks block="two" truckTime={this.props.truckTime} />
+                            <Blocks block="two" truckTime={this.props.firstBlockTime} />
 
                             {/* connecting dots */}
                             {this.displayChainConnection("one")}
-                            <Blocks block="one" time={this.props.time} />
+                            <Blocks block="one" time={this.props.secondBlockTIme} />
+                            
+                        </div>
+                        <div className="col s2 m2" />
+                    </div>
+                </div>
+            )
+        }else if( this.props.stage === "supermarket" ) {
+            return(
+                <div className="block-area moveFromLeftFade">
+                    <div className="row">
+                        <div className="col s2 m2" />
+                        <div className="col s8 m8">
+
+                            <div className="block-explorer-header-hospital">Blockchain Explorer</div>
+
+                            <div className="block-section">
+                                {this.displayChainConnection("two")}
+                                <Blocks block="four" superMarketTime={this.props.time}/>
+                            </div>
+
+                            {this.displayChainConnection("one")}
+                            <Blocks block="three" hospitalTime={this.props.firstBlockTime} />
+
+                            {this.displayChainConnection("two")}
+                            <Blocks block="two" truckTime={this.props.secondBlockTIme} />
+
+                            {/* connecting dots */}
+                            {this.displayChainConnection("one")}
+                            <Blocks block="one" time={this.props.thirdBlockTIme} />
                             
                         </div>
                         <div className="col s2 m2" />

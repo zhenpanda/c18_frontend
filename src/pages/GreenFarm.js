@@ -22,6 +22,8 @@ class GreenFarm extends Component {
 
     displayBlock() {
         let currentTime = moment().format("MMMM Do YYYY, h:mm:ss a");
+        let firstBlockTime = moment().subtract(1, 'minutes').format("MMMM Do YYYY, h:mm:ss a");
+
         if(this.state.stage === null) {
             return(
                 <BlockChain />
@@ -37,7 +39,8 @@ class GreenFarm extends Component {
             return(
                 <BlockChain 
                     stage="phone" 
-                    time={currentTime}
+                    time={firstBlockTime}
+                    phoneTime={currentTime}
                 />
             )
         };
@@ -85,7 +88,7 @@ class GreenFarm extends Component {
         if(this.state.stage) {
             setTimeout(() => {
                 $("#modalClick").click();
-            }, 2500);
+            }, 2250);
             return(
                 <Link to="/farm">
                     <div className="btn shipment-btn moveFromBottomFade">Farm Shipment Tracking</div>
@@ -120,7 +123,6 @@ class GreenFarm extends Component {
                                                             
                 {/* phone model */}
                 {this.displayPhone()}
-                
 
                 {/* greenfarm main section */}
                 <div className="row">

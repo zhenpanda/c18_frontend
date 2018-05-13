@@ -8,8 +8,9 @@ const {
   withGoogleMap,
   GoogleMap,
   DirectionsRenderer,
+  Marker
 } = require("react-google-maps");
-const demoFancyMapStyles = require("../../assets/styles/demoFancyMapStyles.json");
+// const demoFancyMapStyles = require("../../assets/styles/demoFancyMapStyles.json");
 
 const MapWithADirectionsRenderer = compose(
   withProps({
@@ -25,8 +26,8 @@ const MapWithADirectionsRenderer = compose(
       const DirectionsService = new google.maps.DirectionsService();
 
       DirectionsService.route({
-        origin: new google.maps.LatLng(8.435085, -13.224591),
-        destination: new google.maps.LatLng(8.100393, -12.021004),
+        origin: new google.maps.LatLng(41.034899, -72.504491),
+        destination: new google.maps.LatLng(40.669756, -73.669770),
         travelMode: google.maps.TravelMode.DRIVING,
       }, (result, status) => {
         if (status === google.maps.DirectionsStatus.OK) {
@@ -42,24 +43,23 @@ const MapWithADirectionsRenderer = compose(
 )(props =>
     <GoogleMap
         defaultZoom={7}
-        defaultOptions={{ styles: demoFancyMapStyles }}
-        defaultCenter={new google.maps.LatLng(-31.019799, 20.286176)}
     >
     {props.directions && <DirectionsRenderer 
         directions={props.directions}
         options={{
             suppressMarkers: true,
             polylineOptions: { 
-              strokeColor: 'white',
-              strokeWeight : '10'
+              strokeColor: 'red',
+              strokeWeight : '8'
             }
         }}
-        defaultCenter={new google.maps.LatLng(-31.019799, 20.286176)}
     />}
+    {/* <Marker position={{ lat: 41.034899, lng: -72.504491 }} /> */}
+    <Marker position={{ lat: 40.669756, lng: -73.669770 }} />
   </GoogleMap>
 );
 
-class BaseDirectionMap extends Component {
+class FarmDirectionMap extends Component {
     render() {
         return (
             <div className="google-map-container">
@@ -69,4 +69,4 @@ class BaseDirectionMap extends Component {
     }
 }
 
-export default BaseDirectionMap;
+export default FarmDirectionMap;

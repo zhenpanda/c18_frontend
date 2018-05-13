@@ -6,7 +6,7 @@ import Blocks from './Blocks';
 
 import dotsPic from '../assets/images/dots.png';
 
-class Blockchain extends Component {
+class BlockChain extends Component {
     
     displayChainConnection(cycle) {
         if(cycle === "one") {
@@ -156,7 +156,8 @@ class Blockchain extends Component {
                 <div className="block-area-empty" />
             )
         }
+        
     }
 
 }
-export default Blockchain;
+export default BlockChain;

@@ -1,0 +1,221 @@
+@import "./_responsive.scss";
+
+.farm-section {
+    width: 100%;
+}
+.splash-sticker-farm {
+    margin-top: 2.75em;
+
+}
+
+.farm-block {
+    height: 5em;
+    border: 0.2em solid rgb(255, 255, 255);
+}
+.farm-header-icon {
+    color: rgb(98, 179, 95);
+    margin-right: 0.55em;
+    margin-left: 1.75em;
+}
+.farm-header-main-text {
+    color: rgb(244, 209, 122);
+    font-size: 1.5em;
+    margin-top: -0.35em;
+}
+.farm-header-btn {
+    margin-left: 1em;
+    background-color: rgb(103, 174, 100) !important;
+    color: rgb(250, 250, 250) !important;
+    font-weight: 400;
+}
+.farm-header-btn:hover {
+    background-color: rgb(98, 179, 95) !important;
+    color: rgb(247, 209, 126) !important;
+    font-weight: 400;
+}
+
+.farm-time-block {
+    margin-bottom: 2em !important;
+    height: 10em;
+    border: 0.2em solid rgb(255, 255, 255);
+    display: none;
+}
+.farm-body-table {
+    margin-top: 2em;
+    height: 24em;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    thead {
+        border-bottom: 1px solid #ffffff !important;
+    }
+}
+.farm-case-box {
+    padding-top: 1.5em !important;
+}
+.farm-time-main-text {
+    text-align: center;
+    background-color: #75c8e6;
+    color: rgb(89, 86, 86);
+    line-height: 1em;
+    font-size: 1.5em;
+    margin-top: -0.5em;
+    padding: 0.3em;
+    border: 0.01em solid #f0f0f0;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+.farm-time-icon {
+    color: powderblue;
+    line-height: 1em;
+    font-size: 3.5em !important;
+    margin-top: 0.4em;
+    margin-left: 0.2em;
+}
+.farm-time-left-text {
+    color: rgb(126, 215, 126);
+    margin-top: 1em;
+    font-size: 1em;
+    text-shadow: 1px 1px #4b544e;
+}
+.farm-time-right-text {
+    color: rgb(230, 126, 180);
+    margin-top: 1em;
+    margin-left: 2em;
+    font-size: 1em;
+    text-shadow: 1px 1px #683e75;
+}
+.farm-block-bot {
+    margin-top: -4em !important;
+    height: 5em;
+    border: 0.2em solid rgb(70, 104, 148);
+    display:none;
+}
+.farm-bot-icon {
+    color: rgb(70, 104, 148);
+    margin-right: 0.5em;
+    margin-left: 1.75em;
+}
+.farm-bot-main-text {
+    color: rgb(40, 125, 164);
+    font-size: 1.75em;
+    margin-top: -0.35em;
+}
+.farm-bot-btn {
+    margin-left: 1.5em;
+    /* background-color: rgb(245, 115, 59) !important; */
+    color: rgb(250, 250, 250) !important;
+    font-weight: 400;
+}
+
+.farm-body-table-header {
+    margin-top: -1em;
+    height: 4em;
+    background-color: rgb(244, 209, 122) !important;
+}
+.farm-body-table-text {
+    color: #455a64!important;
+    font-size: 1.5em;
+    padding: 0.5em;
+    margin-left: 2em;
+}
+.farm-body-table-long {
+    margin-top: 2em;
+    height: 41em;
+    background-color: white;
+}
+
+.finalize-farm {
+    margin-top: -6em;
+    margin-right: 0.1em;
+}
+
+// responsive 
+html { 
+
+    @include responsive (phone-small) {
+    }; 
+    @include responsive (phone) {
+    }; 
+    @include responsive (laptop-small) {
+        .splash-sticker {
+            top: 2.5%;
+            left: 41.5%;
+        }
+        .splash-sticker-farm {
+            margin-top: 0.45em;
+        }
+        .farm-header-icon {
+            margin-left: 1em;
+        }
+        .farm-header-btn {
+            margin-left: 0.78em;
+        }
+        .farm-body-table {
+            margin-top: 0.5em;
+            height: 20em
+        }
+        .farm-body-table-long {
+            margin-top: 0.25em;
+            height: 35.85em
+        }
+        .farm-case-box {
+            padding-top: 0em !important;
+        }
+        .farm-bot-icon {
+            margin-left: 0.5em;
+        }
+        .farm-bot-btn {
+            margin-left: 0.5em;
+        }
+        .farm-block-bot {
+            margin-top: -2.5em !important;
+        }
+    }; 
+    @include responsive (laptop) {
+        .splash-sticker {
+            top: 3.5%;
+            left: 44.5%;
+        }
+        .splash-sticker-farm {
+            margin-top: 0.5em;
+        }
+        .farm-body-table {
+            margin-top: 1em;
+        }
+        .farm-body-table-long {
+            margin-top: 1em;
+        }
+        .leaflet-sticker {
+            top: 50.5%;
+        }
+        .farm-block-bot {
+            margin-top: -2.5em !important;
+        }
+        .finalize-section {
+            margin-top: 0em;
+        }
+        .finalize-farm-section {
+            margin-top: 0em;
+        }
+    }; 
+    @include responsive (desktop) {
+        .splash-sticker {
+            top: 3.5%;
+        }
+        .farm-body-table {
+            margin-top: 1em;
+        }
+        .farm-body-table-long {
+            margin-top: 1em;
+        }
+        .splash-sticker-farm {
+            margin-top: 0em;
+        }
+        .farm-block-bot {
+            margin-top: -2.5em !important;
+        }
+    }; 
+    @include responsive (desktop-large) {
+    }; 
+
+}

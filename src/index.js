@@ -14,6 +14,7 @@ import reducers from './reducers';
 
 import Home from './pages/Home';
 import GreenFarm from './pages/GreenFarm';
+import Farm from './pages/Farm';
 
 // CSS font
 import '../node_modules/font-awesome/css/font-awesome.min.css';
@@ -32,6 +33,7 @@ ReactDOM.render(
 
             <Route exact path='/' component={ Home } />
             <Route exact path='/greenfarm' component={ GreenFarm } />
+            <Route exact path='/farm' component={ Farm } />
 
         </Switch>
 

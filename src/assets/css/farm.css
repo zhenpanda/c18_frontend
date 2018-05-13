@@ -1,0 +1,186 @@
+/* Mixed-ins */
+.clean-row {
+  padding: 0em !important;
+  margin: 0em !important; }
+
+.google-map-container {
+  width: 100vw;
+  height: 100vh; }
+
+.farm-section {
+  width: 100%; }
+
+.splash-sticker-farm {
+  margin-top: 2.75em; }
+
+.farm-block {
+  height: 5em;
+  border: 0.2em solid white; }
+
+.farm-header-icon {
+  color: #62b35f;
+  margin-right: 0.55em;
+  margin-left: 1.75em; }
+
+.farm-header-main-text {
+  color: #f4d17a;
+  font-size: 1.5em;
+  margin-top: -0.35em; }
+
+.farm-header-btn {
+  margin-left: 1em;
+  background-color: #67ae64 !important;
+  color: #fafafa !important;
+  font-weight: 400; }
+
+.farm-header-btn:hover {
+  background-color: #62b35f !important;
+  color: #f7d17e !important;
+  font-weight: 400; }
+
+.farm-time-block {
+  margin-bottom: 2em !important;
+  height: 10em;
+  border: 0.2em solid white;
+  display: none; }
+
+.farm-body-table {
+  margin-top: 2em;
+  height: 24em;
+  background-color: white;
+  display: none; }
+  .farm-body-table thead {
+    border-bottom: 1px solid #ffffff !important; }
+
+.farm-case-box {
+  padding-top: 1.5em !important; }
+
+.farm-time-main-text {
+  text-align: center;
+  background-color: #75c8e6;
+  color: #595656;
+  line-height: 1em;
+  font-size: 1.5em;
+  margin-top: -0.5em;
+  padding: 0.3em;
+  border: 0.01em solid #f0f0f0;
+  margin-left: 6em;
+  margin-right: 6em; }
+
+.farm-time-icon {
+  color: powderblue;
+  line-height: 1em;
+  font-size: 3.5em !important;
+  margin-top: 0.4em;
+  margin-left: 0.2em; }
+
+.farm-time-left-text {
+  color: #7ed77e;
+  margin-top: 1em;
+  font-size: 1em;
+  text-shadow: 1px 1px #4b544e; }
+
+.farm-time-right-text {
+  color: #e67eb4;
+  margin-top: 1em;
+  margin-left: 2em;
+  font-size: 1em;
+  text-shadow: 1px 1px #683e75; }
+
+.farm-block-bot {
+  margin-top: -4em !important;
+  height: 5em;
+  border: 0.2em solid #466894;
+  display: none; }
+
+.farm-bot-icon {
+  color: #466894;
+  margin-right: 0.5em;
+  margin-left: 1.75em; }
+
+.farm-bot-main-text {
+  color: #287da4;
+  font-size: 1.75em;
+  margin-top: -0.35em; }
+
+.farm-bot-btn {
+  margin-left: 1.5em;
+  /* background-color: rgb(245, 115, 59) !important; */
+  color: #fafafa !important;
+  font-weight: 400; }
+
+.farm-body-table-header {
+  margin-top: -1em;
+  height: 4em;
+  background-color: #f4d17a !important; }
+
+.farm-body-table-text {
+  color: #455a64 !important;
+  font-size: 1.5em;
+  padding: 0.5em;
+  margin-left: 2em; }
+
+.farm-body-table-long {
+  margin-top: 2em;
+  height: 41em;
+  background-color: white; }
+
+.finalize-farm {
+  margin-top: -6em;
+  margin-right: 0.1em; }
+
+@media only screen and (min-width: 63.3em) and (max-width: 80em) {
+  html .splash-sticker {
+    top: 2.5%;
+    left: 41.5%; }
+  html .splash-sticker-farm {
+    margin-top: 0.45em; }
+  html .farm-header-icon {
+    margin-left: 1em; }
+  html .farm-header-btn {
+    margin-left: 0.78em; }
+  html .farm-body-table {
+    margin-top: 0.5em;
+    height: 20em; }
+  html .farm-body-table-long {
+    margin-top: 0.25em;
+    height: 35.85em; }
+  html .farm-case-box {
+    padding-top: 0em !important; }
+  html .farm-bot-icon {
+    margin-left: 0.5em; }
+  html .farm-bot-btn {
+    margin-left: 0.5em; }
+  html .farm-block-bot {
+    margin-top: -2.5em !important; } }
+
+@media only screen and (min-width: 80.1em) and (max-width: 91em) {
+  html .splash-sticker {
+    top: 3.5%;
+    left: 44.5%; }
+  html .splash-sticker-farm {
+    margin-top: 0.5em; }
+  html .farm-body-table {
+    margin-top: 1em; }
+  html .farm-body-table-long {
+    margin-top: 1em; }
+  html .leaflet-sticker {
+    top: 50.5%; }
+  html .farm-block-bot {
+    margin-top: -2.5em !important; }
+  html .finalize-section {
+    margin-top: 0em; }
+  html .finalize-farm-section {
+    margin-top: 0em; } }
+
+@media only screen and (min-width: 91.1em) and (max-width: 100em) {
+  html .splash-sticker {
+    top: 3.5%; }
+  html .farm-body-table {
+    margin-top: 1em; }
+  html .farm-body-table-long {
+    margin-top: 1em; }
+  html .splash-sticker-farm {
+    margin-top: 0em; }
+  html .farm-block-bot {
+    margin-top: -2.5em !important; } }

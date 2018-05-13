@@ -1,4 +1,4 @@
-import { SHIPMENT,TRUCK,HOSPITAL } from '../actions/types';
+import { SHIPMENT,TRUCK } from '../actions/types';
 
 // returns boolean
 export default function(state={}, action) {
@@ -7,8 +7,6 @@ export default function(state={}, action) {
       return {...state, manufacturer: action.payload};
     case TRUCK:
       return {...state, truck: action.payload};
-    case HOSPITAL:
-      return {...state, hospital: action.payload};
     default: break;
   }
   return state;

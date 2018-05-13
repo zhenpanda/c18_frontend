@@ -1,0 +1,294 @@
+/* Mixed-ins */
+.clean-row {
+  padding: 0em !important;
+  margin: 0em !important; }
+
+.google-map-container {
+  width: 100vw;
+  height: 100vh; }
+
+.manufacturer-bg {
+  background: #E55D87;
+  /* fallback for old browsers */ }
+
+.manufacturer-main-text {
+  font-size: 1.25em;
+  margin-top: -0.45em;
+  /* color: rgb(203, 87, 127); */
+  color: #248ecb;
+  text-shadow: 1px 1px #fff7b2;
+  text-align: center; }
+
+.manufacturer-btn {
+  margin-top: -0.35em;
+  color: #fff7b2;
+  text-align: center; }
+
+.manufacturer-btn:hover {
+  color: #50afaf;
+  cursor: pointer; }
+
+.map-section {
+  position: relative;
+  z-index: -10; }
+
+.splash-sticker {
+  position: fixed;
+  top: 5.5%;
+  left: 52.5%;
+  z-index: 10;
+  height: 48em;
+  width: 48em; }
+
+.manufactuer-section {
+  width: 100%; }
+
+.manufacturer-header {
+  height: 4em; }
+
+.manufactuer-header-left {
+  height: 4.75em; }
+
+.manufactuer-header-right {
+  height: 4.75em; }
+
+.manufactuer-body-left {
+  background-color: #0097a7 !important; }
+
+.manufactuer-body-right {
+  background-color: #424242 !important; }
+
+.manufacturer-body {
+  height: 4em; }
+
+.manufacturer-body-icon {
+  color: #f5feff;
+  margin-right: 0.5em;
+  font-size: 1.2em !important; }
+
+.manufacturer-body-main-text {
+  padding-top: 0.5em;
+  text-align: center;
+  color: #f5feff;
+  font-size: 1.5em; }
+
+.manufacturer-body-side-text {
+  padding-top: 0.75em;
+  text-align: center;
+  color: #44bfcd;
+  font-size: 1.25em; }
+
+.manufacturer-body-side-text:hover {
+  color: #fff7b2;
+  cursor: pointer; }
+
+.manufactuer-body-table {
+  margin-top: 2em;
+  height: 34em;
+  background-color: white; }
+
+.manufactuer-body-table-long {
+  margin-top: 2em;
+  height: 40em;
+  background-color: white; }
+
+.manufactuer-body-table-header {
+  margin-top: -1em;
+  height: 4em;
+  background-color: #4fadcf !important; }
+
+.manufactuer-body-table-text {
+  color: white;
+  font-size: 1.5em;
+  padding: 0.5em;
+  margin-left: 2em; }
+
+.manufactuer-body-icon {
+  margin-right: 0.5em; }
+
+.manufactuer-body-table {
+  display: none; }
+
+.manufactuer-body-table-panel {
+  height: 2em; }
+
+.manufactuer-body-table-panel-text {
+  color: #7f8c8c;
+  margin-top: -1.25em;
+  margin-left: 2em; }
+
+.manufactuer-panel-icon {
+  font-size: 1.75em !important;
+  margin-right: 0.5em; }
+
+.finalize-area {
+  display: none; }
+
+.finalize-section {
+  margin-top: 1.5em;
+  background-color: #ffffff !important; }
+
+.finalize-block {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 25em;
+  background-color: #4f4b4b !important; }
+
+.finalize-start-icon {
+  color: #6ac0c6;
+  margin-top: 1em;
+  margin-left: 2.5em;
+  font-size: 2em !important;
+  text-align: center; }
+
+.finalize-start-text {
+  color: #6ac0c6;
+  height: 2.5em;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0.5em;
+  text-align: center;
+  border: 0.05em solid #6ac0c6; }
+
+.finalize-end-icon {
+  color: #e87499;
+  margin-top: 1em;
+  margin-left: 2.5em;
+  font-size: 2em !important;
+  text-align: center; }
+
+.finalize-end-text {
+  color: #e87499;
+  height: 2.5em;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0.5em;
+  text-align: center;
+  border: 0.05em solid #e87499; }
+
+.finalize-go-icon {
+  color: #92c653;
+  margin-top: 1em;
+  margin-left: 2.5em;
+  font-size: 2em !important;
+  text-align: center; }
+
+.finalize-go-btn {
+  background-color: #92c653;
+  height: 2.5em;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0.5em;
+  text-align: center;
+  border: 0.05em solid white; }
+
+.finalize-go-btn:hover {
+  cursor: pointer;
+  background-color: #e9cc84;
+  border: 0.05em solid #e9cc84; }
+
+.finalize-truck-section {
+  display: none;
+  margin-top: 1.5em;
+  background-color: #ffffff !important; }
+
+.finalize-truck-block {
+  margin-top: 1em;
+  padding-top: 0.25em;
+  margin-bottom: 1em;
+  height: 5em;
+  background-color: #4f4b4b !important; }
+
+.finalize-truck-btn {
+  height: 2.5em;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0.5em;
+  text-align: center;
+  border: 0.05em solid #62828f;
+  color: #eb591b !important;
+  background-color: #f4d17a; }
+
+@media only screen and (min-width: 63.3em) and (max-width: 80em) {
+  html .splash-sticker {
+    position: fixed;
+    top: 3.5%;
+    left: 42.5%;
+    z-index: 10;
+    height: 44em;
+    width: 44em; }
+  html .manufactuer-name-section {
+    margin-top: 1em; }
+  html .manufactuer-body-table {
+    margin-top: 1em;
+    height: 31em; }
+  html .manufactuer-body-table-long {
+    margin-top: 0.25em;
+    height: 35.75em; }
+  html .manufactuer-body-table-panel {
+    margin: 0em; }
+  html .sku-table-btn {
+    margin-top: -1em; }
+  html .active {
+    margin: 0em !important; }
+  html .finalize-block {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 20em; }
+  html .finalize-start-icon {
+    margin-top: 0.55em;
+    margin-left: 3.85em;
+    font-size: 1.5em !important; }
+  html .finalize-end-icon {
+    margin-top: 0.5em;
+    margin-left: 2.75em; }
+  html .finalize-go-icon {
+    margin-top: 0.5em;
+    margin-left: 2.75em; } }
+
+@media only screen and (min-width: 80.1em) and (max-width: 91em) {
+  html .splash-sticker {
+    position: fixed;
+    top: 5.5%;
+    left: 42.5%;
+    height: 48em;
+    width: 48em; }
+  html .finalize-block {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 20em; }
+  html .finalize-start-icon {
+    margin-top: 0.55em;
+    margin-left: 3.85em;
+    font-size: 1.5em !important; }
+  html .finalize-end-icon {
+    margin-top: 0.5em;
+    margin-left: 2.75em; }
+  html .finalize-go-icon {
+    margin-top: 0.5em;
+    margin-left: 2.75em; }
+  html .manufactuer-name-section {
+    margin-top: 1em; }
+  html .manufactuer-body-table-long {
+    margin-top: 1em; }
+  html .finalize-section {
+    margin-top: 1em !important; }
+  html .finalize-truck-section {
+    margin-top: 1em !important; } }
+
+@media only screen and (min-width: 91.1em) and (max-width: 100em) {
+  html .splash-sticker {
+    top: 3.5%;
+    left: 48.75em !important; }
+  html .manufactuer-name-section {
+    margin-top: 1em; }
+  html .manufactuer-body-table-long {
+    margin-top: 1em; } }

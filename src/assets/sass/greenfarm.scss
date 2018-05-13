@@ -24,9 +24,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', end
 }
 .greenfarm-header-right-tile {
     height: 2em;
-    background-color: rgb(199, 199, 198);
-}
-.greenfarm-header-left-block {
+    background-color: rgb(247, 229, 147);
+    // border: 0.1em solid rgb(78, 121, 69);
 }
 
 .greenfarm-title-icon {
@@ -82,6 +81,49 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', end
 
 input, textarea, select, button {
     color: grey;
+}
+.csv-img {
+    width: 97%;
+}
+.upload-btn {
+    margin-top: 1.5em;
+}
+.push-block-btn-block {
+    margin-top: 1em;
+    text-align: center;
+}
+.greenfarm-farm-block {
+    border: 0.1em solid white;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    font-size: 1.2em;
+}
+.greenfarm-farm-header-text {
+    font-size: 1.45em;
+    padding: 0.75em;
+    color: rgb(71, 141, 146);
+    font-weight: 400;
+    margin-left: 1em;
+    // text-align: center;
+}
+.greenfarm-farm-block-text {
+    text-align: center;
+}
+.greenfarm-farm-address-block {
+    border: 0.1em solid white;
+    color: rgb(63, 152, 124);
+    padding: 1.25em;
+    font-size: 1.2em;
+}
+.greenfarm-farm-address-text {
+    font-size: 1em;
+    // padding: 0.75em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.shipment-btn {
+    margin-top: 1.75em;
+    margin-left: 0.5em;
 }
 
 html { 
